@@ -1,7 +1,7 @@
 import tkinter
 
 root = tkinter.Tk()
-title = root.title("FOI-Smart Money")
+title = root.title("Centered Ui")
 config = root.configure(bg="black", )
 x = int(root.winfo_screenwidth() / 2 - (root.winfo_reqwidth() / 2))
 y = int(root.winfo_screenheight() / 3 - (root.winfo_reqheight() / 2))
